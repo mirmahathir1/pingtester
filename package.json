@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "build": "pkg pingtest.js --targets node16-win-x64,node16-linux-x64 --out-path build"
+    "build": "pkg pingtest.js --targets node16-win-x64,node16-linux-x64 --out-path build",
+    "start": "node pingtest.js"
   },
   "author": "",
   "license": "ISC",
